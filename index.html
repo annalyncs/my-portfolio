@@ -8,6 +8,7 @@
     <link href="style.css" rel="stylesheet" />
 </head>
 <body>
+<!--   HEADER-->
     <header role="banner">
         <nav role="navigation">
             <ul>
@@ -18,12 +19,91 @@
             </ul>
         </nav>
     </header>
+    <main role="main">
+<!--       LANDING-->
+        <div class="landing">
+            <p>Hi there, I'm Annalyn & I'm a web developer.</p>
+        </div>
 
-    <div id="about"></div>
-    <div class="projects"></div>
-    <div class="skills"></div>
-    <div class="contact"></div>
-    <footer role="contentinfo"></footer>
+<!--        ABOUT-->
+        <div id="about">
+            <h1>About Me</h1>
+            <p>I love learning about new things, which led me to learning how to code. I enjoy the creative process of thinking about the user experience and design and translating that to code.</p>
+            <p>I have a bachelor’s degree in Biological Sciences, with a background in healthcare and clinical research.</p>
+            <p>My interests include technology, photography, reading (always open to book recommendations!), and collecting unique experiences.</p>
+            <p>View my Resume</p>
+        </div>
+
+<!--       PROJECTS-->
+        <div id="projects">
+            <h1>Projects</h1>
+            <div class="project-info">
+                <img src="/images/trip-planner-home.png">
+                <h2>Trip Planner</h2>
+                <p>Trip Planner gives users the ability to find weather results and venues in a specific location.</p>
+                <a href="https://annalyncs.github.io/thinkful-api-capstone-trip-planner/">Live Demo</a>
+                <a href="https://github.com/annalyncs/thinkful-api-capstone-trip-planner">Code</a>
+                <p>HTML5 · CSS3 · JavaScript · jQuery</p>
+            </div>
+
+            <div class="project-info">
+                <img src="/images/self-reflections-home.png">
+                <h2>Self-Reflections</h2>
+                <p>The goal of Anonymous Self Reflections is to allow users to post and share reflections and find resources.
+                By posting anonymous reflections, users can see that they are not alone in feeling certain emotions and can
+                reflect and focus on their own mindfulness.</p>
+                <a href="https://self-reflections.herokuapp.com/">Live Demo</a>
+                <a href="https://github.com/annalyncs/self-reflections-capstone">Code</a>
+                <p>HTML5 · CSS3 · JavaScript · jQuery · Node.js · Express · MongoDB</p>
+            </div>
+
+            <div class="project-info">
+                <img src="/images/life-index-home.png">
+                <h2>Life Index</h2>
+                <p>The goal of Life Index is to allow users to organize their financial, fitness, health, lifestyle, and transport data.</p>
+                <a href="https://annalyncs.github.io/life-index-react-capstone/build/">Live Demo</a>
+                <a href="https://github.com/annalyncs/life-index-react-capstone">Code</a>
+                <p>HTML5 · CSS3 · JavaScript · jQuery · React · Node.js · Express · MongoDB</p>
+            </div>
+        </div>
+
+<!--        SKILLS-->
+        <div id="skills">
+            <h1>Skills</h1>
+            <h2>Front-End</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                    <li>React + Redux</li>
+                    <li>Responsive Design</li>
+                </ul>
+            <h2>Back-End</h2>
+                <ul>
+                    <li>Node/Express</li>
+                    <li>MongoDB/Mongoose</li>
+                    <li>Mocha + Chai</li>
+                </ul>
+        </div>
+
+<!--        CONTACT-->
+        <div id="contact">
+            <h1>Let's talk!</h1>
+            <p>For general inquiry, email <a href="mailto:annalyn.c.s@gmail.com">annalyn.c.s@gmail.com</a></p>
+            <div id="contact-container">
+                <img src="Linkedin">
+                <img src="Github">
+                <img src="Angelist">
+            </div>
+        </div>
+
+<!--       FOOTER-->
+        <footer role="contentinfo">
+            <p>&copy; Annalyn Sarmiento | 2018</p>
+        </footer>
+    </main>
+
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
