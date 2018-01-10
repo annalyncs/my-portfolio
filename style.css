@@ -30,14 +30,19 @@ div {
     border: 1px solid black;
 }
 
+main {
+    margin: 70px auto;
+}
+
 /***HEADER***/
 
-header {
+#header-container {
     position: fixed;
     background: white;
     width: 100%;
     height: 100px;
     text-align: right;
+    top: 0px;
 }
 
 nav li{
@@ -46,9 +51,28 @@ nav li{
 
 }
 
-header img {
+nav img {
     display: inline-block;
     position: absolute;
     left: 10px;
 
+}
+
+/***LANDING***/
+.landing {
+    height: 100vh;
+    margin-top: 100px;
+    background: url('/images/star%20trails.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.landing p {
+    margin-top: 50vh;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
 }
