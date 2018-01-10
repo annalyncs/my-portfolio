@@ -89,10 +89,17 @@ nav span {
 
 nav a {
     padding: 5px;
+    color: #358c96;
 }
 
 nav a:focus {
-    background: lightgrey;
+    background: #b1e1e6;
+}
+
+nav a.selected {
+    border-bottom: 5px solid #b1e1e6;
+    line-height: 0.1px;
+    color: black;
 }
 
 
@@ -297,7 +304,7 @@ footer {
         display: block;
         padding: 10px;
         text-decoration: none;
-        color: #358c96;
+        color: #41b0bd;
         border-bottom: 1px solid #e6e8ea;
         box-shadow: inset 0 1px 0 rgba(255, 255, 255, 1);
         transition: all 0.3s ease-out;

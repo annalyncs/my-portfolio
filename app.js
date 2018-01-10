@@ -6,7 +6,14 @@ function showMenu() {
     })
 };
 
+function selectedSection() {
+    $('nav').on('click', 'a', function () {
+        $(this).toggleClass('selected');
+    })
+}
+
 
 $(function () {
     showMenu();
+    selectedSection();
 })
