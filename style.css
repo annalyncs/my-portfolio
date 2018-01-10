@@ -32,6 +32,10 @@ a:visited {
     color: #41b0bd;
 }
 
+a:hover {
+    color: #358c96;
+}
+
 main {
     margin: 70px auto;
 }
@@ -73,10 +77,11 @@ nav li {
     margin: 15px;
 }
 
-nav img {
+nav #name-logo {
     display: inline-block;
     position: absolute;
     left: 10px;
+    top: 30px;
 }
 
 /*DROPDOWN*/
@@ -86,17 +91,17 @@ nav img {
 }
 
 .dropdown-nav span {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .dropdown-nav {
     position: relative;
-    left: 200px;
-    top: 10px;
+    left: 100px;
+    top: 15px;
     width: 200px;
     margin: 0 auto;
     padding: 10px;
-    background: #fff;
+    background: rgba(0, 0, 0, 0);
     cursor: pointer;
     outline: none;
 }
@@ -226,7 +231,8 @@ nav img {
     line-height: 0.9px;
     height: 15px;
     font-size: 30px;
-    color: #358c96
+    color: #358c96;
+    text-transform: lowercase;
 }
 
 .project-info img {
@@ -242,6 +248,10 @@ nav img {
     font-size: 20px;
 }
 
+.project-info a:hover {
+    background: #358c96;
+}
+
 .technology {
     color: #999;
     padding: 10px;
@@ -255,7 +265,7 @@ nav img {
 }
 
 #skills h2 {
-    color: #000;
+    color: #358c96;
     font-size: 35px;
     text-align: center;
     vertical-align: top;
@@ -293,7 +303,7 @@ nav img {
 .icon-nodejs,
 .icon-mongodb {
     font-size: 36px;
-    color: #358c96
+    color: #b1e1e6;
 }
 
 /*****CONTACT*****/
@@ -314,12 +324,11 @@ nav img {
 
 /*****FOOTER*****/
 
-/*
 footer {
     background: lightgrey;
-    position: relative;
     width: 100%;
+    height: 70px;
     bottom: 0;
-
+    padding: 5px;
+    text-align: center
 }
-*/
