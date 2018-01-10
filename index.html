@@ -8,30 +8,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
     <link href="style.css" rel="stylesheet" />
 </head>
+
 <body>
-<!--   HEADER-->
-   <div id="header-container">
+    <!--   HEADER-->
+    <div id="header-container">
         <header role="banner">
             <nav role="navigation">
-               <img src="/images/logo.png" id="name-logo">
-                <ul>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+                <img src="/images/logo.png" id="name-logo">
+                <div id="dd" class="dropdown-nav" tabindex="1">
+                    <span>Menu &#9662;</span>
+                    <ul class="dropdown">
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
             </nav>
         </header>
     </div>
 
     <main role="main">
 
-<!--       LANDING-->
+        <!--       LANDING-->
         <div class="landing">
             <p>Hi there, I'm Annalyn & I'm a web developer.</p>
         </div>
 
-<!--        ABOUT-->
+        <!--        ABOUT-->
         <div id="about">
             <h1>About Me</h1>
             <p>I love learning about new things, which led me to learning how to code. I enjoy the creative process of thinking about the user experience and design and translating that to code.</p>
@@ -40,60 +44,58 @@
             <p>View my Resume</p>
         </div>
 
-<!--       PROJECTS-->
+        <!--       PROJECTS-->
         <div id="projects">
             <h1>Projects</h1>
             <div class="project-info">
-                <img src="/images/trip-planner-home.png">
                 <h2>Trip Planner</h2>
+                <img src="/images/trip-planner-home.png">
                 <p>Trip Planner gives users the ability to find weather results and venues in a specific location.</p>
                 <a href="https://annalyncs.github.io/thinkful-api-capstone-trip-planner/">Live Demo</a>
                 <a href="https://github.com/annalyncs/thinkful-api-capstone-trip-planner">Code</a>
-                <p>HTML5 · CSS3 · JavaScript · jQuery</p>
+                <p class="technology">HTML5 · CSS3 · JavaScript · jQuery</p>
             </div>
 
             <div class="project-info">
-                <img src="/images/self-reflections-home.png">
                 <h2>Self-Reflections</h2>
-                <p>The goal of Anonymous Self Reflections is to allow users to post and share reflections and find resources.
-                By posting anonymous reflections, users can see that they are not alone in feeling certain emotions and can
-                reflect and focus on their own mindfulness.</p>
+                <img src="/images/self-reflections-home.png">
+                <p>The goal of Anonymous Self Reflections is to allow users to post and share reflections and find resources. By posting anonymous reflections, users can see that they are not alone in feeling certain emotions and can reflect and focus on their own mindfulness.</p>
                 <a href="https://self-reflections.herokuapp.com/">Live Demo</a>
                 <a href="https://github.com/annalyncs/self-reflections-capstone">Code</a>
-                <p>HTML5 · CSS3 · JavaScript · jQuery · Node.js · Express · MongoDB</p>
+                <p class="technology">HTML5 · CSS3 · JavaScript · jQuery · Node.js · Express · MongoDB</p>
             </div>
 
             <div class="project-info">
-                <img src="/images/life-index-home.png">
                 <h2>Life Index</h2>
+                <img src="/images/life-index-home.png">
                 <p>The goal of Life Index is to allow users to organize their financial, fitness, health, lifestyle, and transport data.</p>
                 <a href="https://annalyncs.github.io/life-index-react-capstone/build/">Live Demo</a>
                 <a href="https://github.com/annalyncs/life-index-react-capstone">Code</a>
-                <p>HTML5 · CSS3 · JavaScript · jQuery · React · Node.js · Express · MongoDB</p>
+                <p class="technology">HTML5 · CSS3 · JavaScript · jQuery · React · Node.js · Express · MongoDB</p>
             </div>
         </div>
 
-<!--        SKILLS-->
+        <!--        SKILLS-->
         <div id="skills">
             <h1>Skills</h1>
             <h2>Front-End</h2>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                    <li>jQuery</li>
-                    <li>React + Redux</li>
-                    <li>Responsive Design</li>
-                </ul>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>React + Redux</li>
+                <li>Responsive Design</li>
+            </ul>
             <h2>Back-End</h2>
-                <ul>
-                    <li>Node/Express</li>
-                    <li>MongoDB/Mongoose</li>
-                    <li>Mocha + Chai</li>
-                </ul>
+            <ul>
+                <li>Node/Express</li>
+                <li>MongoDB/Mongoose</li>
+                <li>Mocha + Chai</li>
+            </ul>
         </div>
 
-<!--        CONTACT-->
+        <!--        CONTACT-->
         <div id="contact">
             <h1>Let's talk!</h1>
             <p>For general inquiry, email <a href="mailto:annalyn.c.s@gmail.com">annalyn.c.s@gmail.com</a></p>
@@ -103,7 +105,7 @@
             </div>
         </div>
 
-<!--       FOOTER-->
+        <!--       FOOTER-->
         <footer role="contentinfo">
             <p>&copy; Annalyn Sarmiento | 2018</p>
         </footer>
