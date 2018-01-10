@@ -250,16 +250,52 @@ nav img {
 
 /*****SKILLS*****/
 
+#skills {
+    padding: 10px;
+}
+
 #skills h2 {
-    color: #358c96;
-    /*
-    border-bottom: 20px solid #eee;
-    line-height: 0.1px;
-    display: inline-block;
-*/
-    font-size: 30px;
+    color: #000;
+    font-size: 35px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.icon-html,
+.icon-database-alt2 {
+    font-size: 50px;
+}
+
+#skills span {
+    vertical-align: top;
+}
+
+#skills li {
+    list-style: none;
+    padding: 5px;
+    font-size: 18px;
+}
+
+#skills li:before {
+    content: "\25B9";
+}
+
+.development-icons {
     text-align: center;
 }
+
+
+.icon-html5,
+.icon-javascript,
+.icon-css3,
+.icon-jquery,
+.icon-reactjs,
+.icon-nodejs,
+.icon-mongodb {
+    font-size: 36px;
+    color: #358c96
+}
+
 
 /*****FOOTER*****/
 
