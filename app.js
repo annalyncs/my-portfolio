@@ -1,18 +1,12 @@
 'use strict'
 
 function showMenu() {
-    $('.dropdown-nav').click(function () {
-        $('.dropdown').toggle();
+    $('span').click(function () {
+        $('.dropdown').toggleClass('active');
     })
 };
 
-function hideMenu() {
-    $('li').on('click', function () {
-        $('.dropdown').hide();
-    })
-};
 
 $(function () {
     showMenu();
-    hideMenu();
 })
