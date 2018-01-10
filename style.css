@@ -296,6 +296,21 @@ nav img {
     color: #358c96
 }
 
+/*****CONTACT*****/
+
+#contact {
+    text-align: center;
+}
+
+#contact p {
+    margin: 30px;
+}
+
+#contact-container img {
+    height: 45px;
+    padding: 5px;
+}
+
 
 /*****FOOTER*****/
 
