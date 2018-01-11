@@ -109,7 +109,7 @@ nav a.selected {
 
 /******LANDING*****/
 
-.landing {
+#landing {
     height: 100vh;
     margin-top: 100px;
     background: url('images/star%20trails.jpg');
@@ -121,7 +121,7 @@ nav a.selected {
     text-align: center;
 }
 
-.landing p {
+#landing p {
     padding-top: 50vh;
     font-size: 20px;
     text-shadow: 2px 2px black;
@@ -203,7 +203,7 @@ nav a.selected {
 
 .development-skills {
     display: inline-block;
-    height: 500px;
+    height: 400px;
     padding: 20px;
     vertical-align: top;
     margin: auto 20px;
