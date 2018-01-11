@@ -128,11 +128,9 @@ nav a.selected {
     padding-top: 35vh;
     font-size: 30px;
     text-shadow: 2px 2px black;
-    -webkit-animation-duration: 5s;
+    -webkit-animation-duration: 3s;
     -webkit-animation-delay: 0.5s;
 }
-
-
 
 
 /*****ABOUT*****/
