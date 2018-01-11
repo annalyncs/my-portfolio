@@ -1,7 +1,7 @@
 /*****FONT*****/
 
 @font-face {
-    font-family: Akkurat;
+    font-family: 'Akkurat';
     src: url('css/font/Akkurat.woff') format('woff'),
     url('css/font/Akkurat.ttf') format('truetype');
     font-weight: 400;
