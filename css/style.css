@@ -2,16 +2,16 @@
 
 @font-face {
     font-family: "Akkurat";
-    src: url('font/Akkurat.woff') format('woff'),
-    url('font/Akkurat.ttf') format('truetype');
+    src: url('../font/Akkurat.woff') format('woff'),
+    url('../font/Akkurat.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Akkurat-Light";
-    src: url('font/Akkurat-Light.woff') format('woff'),
-    url('font/Akkurat-Light.ttf') format('truetype');
+    src: url('../font/Akkurat-Light.woff') format('woff'),
+    url('../font/Akkurat-Light.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
 }
