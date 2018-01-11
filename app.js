@@ -24,9 +24,13 @@ $(window).scroll(function () {
         $('a').removeClass('selected');
         $('.contact-nav').addClass('selected');
     } else {
-        $('a').removeClass('selected');
+        $('a').addClass('selected');
     }
 })
+
+console.log($(document).scrollTop());
+console.log(contact);
+console.log(skills);
 
 function scrollPageTo(myTarget, topPadding) {
     if (topPadding == undefined) {
