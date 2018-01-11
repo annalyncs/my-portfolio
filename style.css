@@ -48,7 +48,7 @@ main {
 #projects,
 #skills,
 #contact {
-    padding: 20px;
+    padding: 30px;
     margin-top: 25px;
 }
 
@@ -73,6 +73,7 @@ h1 {
     top: 0px;
     box-shadow: 0 0 10px black;
     padding: 10px;
+    z-index: 100;
 }
 
 nav #name-logo {
@@ -122,10 +123,15 @@ nav a.selected {
 }
 
 #landing p {
-    padding-top: 50vh;
-    font-size: 20px;
+    padding-top: 35vh;
+    font-size: 30px;
     text-shadow: 2px 2px black;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-delay: 0.7s;
 }
+
+
+
 
 /*****ABOUT*****/
 
@@ -186,7 +192,6 @@ nav a.selected {
 /*****SKILLS*****/
 
 #skills {
-    padding: 10px;
     text-align: center;
 }
 

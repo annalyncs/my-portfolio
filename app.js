@@ -6,13 +6,6 @@ let projects = $('#projects').offset();
 let skills = $('#skills').offset();
 let contact = $('#contact').offset();
 
-console.log($('header').offset());
-console.log(landing);
-console.log(projects);
-console.log(skills);
-console.log(contact);
-
-
 $(window).scroll(function () {
     let screenPosition = $(document).scrollTop();
 
@@ -61,6 +54,11 @@ $('.contact-nav').click(function () {
         'slow');
 });
 
+$('#landing p').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+    $(this).removeClass('animated slideInDown');
+    $(this).addClass('animated fadeOut');
+    $(this).removeClass('animated fadeOut').addClass('animated fadeIn').html("I'm Annalyn & I'm a web developer.")
+})
 
 function showMenu() {
     $('span').click(function () {
