@@ -1,13 +1,14 @@
 /*****FONT*****/
 
 @font-face {
-    font-family: "Akkurat";
+    font-family: Akkurat;
     src: url('css/font/Akkurat.woff') format('woff'),
     url('css/font/Akkurat.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
+/*
 @font-face {
     font-family: "Akkurat-Light";
     src: url('css/font/Akkurat-Light.woff') format('woff'),
@@ -15,6 +16,7 @@
     font-weight: 100;
     font-style: normal;
 }
+*/
 
 /*****BODY*****/
 
