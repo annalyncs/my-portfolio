@@ -127,13 +127,28 @@ nav a.selected {
     font-size: 30px;
     text-shadow: 2px 2px black;
     -webkit-animation-duration: 5s;
-    -webkit-animation-delay: 0.7s;
+    -webkit-animation-delay: 0.5s;
 }
 
 
 
 
 /*****ABOUT*****/
+
+#about-info {
+    padding: 50px;
+    /*    border: 1px solid black;*/
+    width: 90%;
+    margin: 0 auto;
+}
+
+img.about-image {
+    height: 250px;
+    float: right;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
 
 /*****PROJECTS*****/
 
@@ -399,6 +414,20 @@ footer {
 
     .project-info img {
         width: 90%;
+    }
+
+    /*ABOUT*/
+    #about {
+        text-align: center;
+    }
+
+    #about p {
+        text-align: left;
+    }
+
+    #about img {
+        float: none;
+        border-radius: 1000px;
     }
 
 }

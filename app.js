@@ -54,7 +54,7 @@ $('.contact-nav').click(function () {
         'slow');
 });
 
-$('#landing p').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+$('div#landing p').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
     $(this).removeClass('animated slideInDown');
     $(this).addClass('animated fadeOut');
     $(this).removeClass('animated fadeOut').addClass('animated fadeIn').html("I'm Annalyn & I'm a web developer.")
