@@ -6,6 +6,12 @@ let projects = $('#projects').offset();
 let skills = $('#skills').offset();
 let contact = $('#contact').offset();
 
+console.log($('header').offset());
+console.log(landing);
+console.log(projects);
+console.log(skills);
+console.log(contact);
+
 
 $(window).scroll(function () {
     let screenPosition = $(document).scrollTop();
@@ -26,6 +32,34 @@ $(window).scroll(function () {
         $('.contact-nav').addClass('selected');
     }
 })
+
+$('.about-nav').click(function () {
+    $('html,body').animate({
+            scrollTop: (about.top - 100)
+        },
+        'slow');
+});
+
+$('.projects-nav').click(function () {
+    $('html,body').animate({
+            scrollTop: (projects.top - 100)
+        },
+        'slow');
+});
+
+$('.skills-nav').click(function () {
+    $('html,body').animate({
+            scrollTop: (skills.top - 100)
+        },
+        'slow');
+});
+
+$('.contact-nav').click(function () {
+    $('html,body').animate({
+            scrollTop: (contact.top - 100)
+        },
+        'slow');
+});
 
 
 function showMenu() {
