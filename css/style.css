@@ -428,6 +428,9 @@ footer {
     #about img {
         float: none;
         border-radius: 1000px;
+        margin: 0 auto;
+        width: 80%;
+        height: auto;
     }
 
 }
