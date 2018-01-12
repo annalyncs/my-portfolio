@@ -72,7 +72,7 @@ h1 {
     color: black;
     border-bottom: 20px solid #b1e1e6;
     line-height: 0.9px;
-    font-family: 'Akkurat';
+    font-family: 'Akkurat', Helvetica, sans-serif;
 }
 
 /*****HEADER*****/
@@ -235,7 +235,7 @@ img.about-image {
     font-size: 35px;
     text-align: center;
     vertical-align: top;
-    font-family: 'Akkurat';
+    font-family: 'Akkurat', Helvetica, sans-serif;
     margin: 10px;
 }
 
@@ -348,22 +348,12 @@ footer {
     .dropdown-nav {
         position: relative;
         width: auto;
-        right: 0;
         background: rgba(0, 0, 0, 0);
         cursor: pointer;
         outline: none;
     }
 
-    .dropdown-nav li {
-        padding: 5px;
-    }
-
     .dropdown-nav .dropdown {
-        position: absolute;
-        top: 140%;
-        left: 0;
-        right: 0;
-
         background: white;
         border-radius: inherit;
         border: 1px solid rgba(0, 0, 0, 0.17);
@@ -371,14 +361,16 @@ footer {
         font-weight: normal;
         transition: all 0.5s ease-in;
         list-style: none;
+        width: 180px;
+        float: right;
 
         opacity: 0;
         pointer-events: none;
     }
 
-    .dropdown-nav .dropdown li a {
+    .dropdown-nav .dropdown li {
         display: block;
-        padding: 10px;
+        padding: 15px;
         text-decoration: none;
         color: #358c96;
         border-bottom: 1px solid #e6e8ea;
@@ -393,30 +385,6 @@ footer {
 
     .dropdown-nav .dropdown li:hover a {
         background: #b1e1e6;
-    }
-
-    .dropdown-nav .dropdown:after {
-        content: "";
-        width: 0;
-        height: 0;
-        position: absolute;
-        bottom: 100%;
-        right: 15px;
-        border-width: 0 6px 6px 6px;
-        border-style: solid;
-        border-color: #fff transparent;
-    }
-
-    .dropdown-nav .dropdown:before {
-        content: "";
-        width: 0;
-        height: 0;
-        position: absolute;
-        bottom: 100%;
-        right: 13px;
-        border-width: 0 8px 8px 8px;
-        border-style: solid;
-        border-color: rgba(0, 0, 0, 0.1) transparent;
     }
 
     .dropdown-nav .dropdown {
