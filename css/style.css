@@ -396,7 +396,7 @@ footer {
     .project-info {
         width: 100%;
         display: block;
-        height: 100vh;
+        height: 600px;
         padding: 20px;
         margin: 20px auto;
     }
@@ -421,5 +421,19 @@ footer {
         width: 80%;
         height: auto;
     }
+
+    #about-info {
+        padding: 20px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /*SKILLS*/
+    .development-skills {
+        display: block;
+        height: 450px;
+        padding: 20px;
+    }
+
 
 }
