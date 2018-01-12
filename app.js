@@ -57,7 +57,11 @@ $('.contact-nav').click(function () {
 $('div#landing p').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
     $(this).removeClass('animated slideInDown');
     $(this).addClass('animated fadeOut');
-    $(this).removeClass('animated fadeOut').addClass('animated fadeIn').html("I'm Annalyn & I'm a web developer.")
+    $(this).removeClass('animated fadeOut').addClass('animated fadeIn').html("I'm a full-stack web developer.")
+})
+
+$('.dropdown').on('click', 'li', function () {
+    $('.dropdown').addClass('active');
 })
 
 function showMenu() {

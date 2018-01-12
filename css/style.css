@@ -23,6 +23,18 @@
     box-sizing: border-box;
 }
 
+ul,
+menu,
+dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
 body {
     margin: 0 auto;
 }
@@ -58,7 +70,6 @@ h1 {
     font-size: 40px;
     color: black;
     border-bottom: 20px solid #b1e1e6;
-    text-transform: uppercase;
     line-height: 0.9px;
 }
 
@@ -68,11 +79,11 @@ h1 {
     position: fixed;
     background: white;
     width: 100%;
-    height: 100px;
+    height: 40px;
     text-align: right;
     top: 0px;
     box-shadow: 0 0 10px black;
-    padding: 10px;
+    padding: 5px;
     z-index: 100;
 }
 
@@ -80,12 +91,12 @@ nav #name-logo {
     display: inline-block;
     position: absolute;
     left: 30px;
-    top: 30px;
+    top: 0px;
 }
 
 nav li {
     display: inline-block;
-    padding: 10px;
+    padding: 0px;
 }
 
 nav span {
@@ -245,6 +256,7 @@ img.about-image {
 
 #skills li:before {
     content: "\25B9";
+    margin: 10px;
 }
 
 .development-icons {
@@ -258,7 +270,10 @@ img.about-image {
 .icon-jquery,
 .icon-reactjs,
 .icon-nodejs,
-.icon-mongodb {
+.icon-mongodb,
+.icon-heroku,
+.icon-database,
+.icon-shell {
     font-size: 36px;
     color: #b1e1e6;
 }
@@ -296,7 +311,7 @@ footer {
 
 /*****RESPONSIVE*****/
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 860px) {
     /*DROPDOWN*/
     nav span {
         display: inline-block;
@@ -316,11 +331,11 @@ footer {
 
     .dropdown-nav {
         position: relative;
-        left: 80px;
-        top: 15px;
-        width: 200px;
+        right: 0;
+        top: 0;
+        width: auto;
         margin: 0 auto;
-        padding: 10px;
+        padding: 5px;
         background: rgba(0, 0, 0, 0);
         cursor: pointer;
         outline: none;
