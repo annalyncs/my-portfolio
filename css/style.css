@@ -8,20 +8,18 @@
     font-style: normal;
 }
 
-/*
 @font-face {
-    font-family: "Akkurat-Light";
+    font-family: 'Akkurat-Light';
     src: url('css/font/Akkurat-Light.woff') format('woff'),
     url('css/font/Akkurat-Light.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
 }
-*/
 
 /*****BODY*****/
 
 * {
-    font-family: Akkurat-Light, Helvetica, sans-serif;
+    font-family: 'Akkurat-Light', Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
