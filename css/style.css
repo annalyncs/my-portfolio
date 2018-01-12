@@ -2,16 +2,16 @@
 
 @font-face {
     font-family: 'Akkurat';
-    src: url('css/font/Akkurat.woff') format('woff'),
-    url('css/font/Akkurat.ttf') format('truetype');
+    src: url('./font/Akkurat.woff') format('woff'),
+    url('./font/Akkurat.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Akkurat-Light';
-    src: url('css/font/Akkurat-Light.woff') format('woff'),
-    url('css/font/Akkurat-Light.ttf') format('truetype');
+    src: url('./font/Akkurat-Light.woff') format('woff'),
+    url('./font/Akkurat-Light.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
 }
@@ -53,7 +53,7 @@ a:hover {
 }
 
 main {
-    margin: 70px auto;
+    margin: 0px auto;
 }
 
 #about,
@@ -75,44 +75,40 @@ h1 {
 
 /*****HEADER*****/
 
-header {
-    box-shadow: 0 0 10px black;
-    width: 100%;
-}
-
 #header-container {
     position: fixed;
     background: white;
     width: auto;
-    height: 40px;
+    height: 45px;
     text-align: right;
     top: 0px;
-    padding: 5px;
     z-index: 100;
-    display: inline-block;
-    float: right;
+    box-shadow: 0 0 10px black;
+    width: 100%;
+    padding: 0;
 }
 
-nav #name-logo {
+#name-logo {
     display: inline-block;
     position: absolute;
     left: 30px;
-    top: 0px;
-
+    top: 0;
+    padding-top: 10px;
+    margin: 0;
 }
 
 nav li {
     display: inline-block;
-    padding: 0px;
-}
-
-nav span {
-    display: none;
-}
-
-nav a {
-    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
     color: #358c96;
+}
+
+nav ul {
+    width: auto;
+    margin-top: 10px;
+    line-height: 0px;
+    padding-top: 10px;
 }
 
 nav a:focus {
@@ -121,16 +117,18 @@ nav a:focus {
 
 nav a.selected {
     border-bottom: 5px solid #b1e1e6;
-    line-height: 0.1px;
     color: black;
 }
 
+nav span {
+    display: none;
+}
 
 /******LANDING*****/
 
 #landing {
     height: 100vh;
-    margin-top: 100px;
+    margin-top: 0;
     background: url('../images/star%20trails.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -141,7 +139,7 @@ nav a.selected {
 }
 
 #landing p {
-    padding-top: 35vh;
+    padding-top: 50vh;
     font-size: 30px;
     text-shadow: 2px 2px black;
     -webkit-animation-duration: 3s;
@@ -153,7 +151,6 @@ nav a.selected {
 
 #about-info {
     padding: 50px;
-    /*    border: 1px solid black;*/
     width: 90%;
     margin: 0 auto;
 }
@@ -320,32 +317,34 @@ footer {
 
 @media only screen and (max-width: 860px) {
     /*DROPDOWN*/
-    nav span {
-        display: inline-block;
-    }
-
-    nav span:hover {
-        color: #358c96;
-    }
-
-    .dropdown-nav span {
-        font-size: 18px;
-    }
-
     .active {
         display: none;
     }
 
+    nav span {
+        display: inline-block;
+        padding-top: 8px;
+        font-size: 18px;
+        width: auto;
+    }
+
+    nav span:hover {
+        color: #358c96;
+        cursor: pointer;
+    }
+
     .dropdown-nav {
         position: relative;
-        right: 0;
-        top: 0;
         width: auto;
-        margin: 0 auto;
-        padding: 5px;
+        right: 0;
+        padding: 10 px;
         background: rgba(0, 0, 0, 0);
         cursor: pointer;
         outline: none;
+    }
+
+    .dropdown-nav li {
+        padding: 7px;
     }
 
     .dropdown-nav .dropdown {
@@ -379,15 +378,6 @@ footer {
     .dropdown-nav .dropdown li i {
         float: right;
         color: inherit;
-    }
-
-    .dropdown-nav .dropdown li:first-of-type a {
-        border-radius: 7px 7px 0 0;
-    }
-
-    .dropdown-nav .dropdown li:last-of-type a {
-        border-radius: 0 0 7px 7px;
-        border: none;
     }
 
     .dropdown-nav .dropdown li:hover a {
