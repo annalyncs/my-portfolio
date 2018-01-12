@@ -75,6 +75,11 @@ h1 {
 
 /*****HEADER*****/
 
+header {
+    box-shadow: 0 0 10px black;
+    width: 100%;
+}
+
 #header-container {
     position: fixed;
     background: white;
@@ -82,7 +87,6 @@ h1 {
     height: 40px;
     text-align: right;
     top: 0px;
-    box-shadow: 0 0 10px black;
     padding: 5px;
     z-index: 100;
     display: inline-block;
