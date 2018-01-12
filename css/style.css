@@ -19,7 +19,6 @@
 /*****BODY*****/
 
 * {
-    font-family: 'Akkurat-Light', Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
@@ -37,6 +36,7 @@ dir {
 
 body {
     margin: 0 auto;
+    font-family: 'Akkurat-Light', Helvetica, sans-serif;
 }
 
 a {
@@ -50,6 +50,7 @@ a:visited {
 
 a:hover {
     color: #41b0bd;
+    cursor: pointer;
 }
 
 main {
@@ -71,6 +72,7 @@ h1 {
     color: black;
     border-bottom: 20px solid #b1e1e6;
     line-height: 0.9px;
+    font-family: 'Akkurat';
 }
 
 /*****HEADER*****/
@@ -109,6 +111,7 @@ nav ul {
     margin-top: 10px;
     line-height: 0px;
     padding-top: 10px;
+    padding-right: 10px;
 }
 
 nav a:focus {
@@ -232,6 +235,12 @@ img.about-image {
     font-size: 35px;
     text-align: center;
     vertical-align: top;
+    font-family: 'Akkurat';
+    margin: 10px;
+}
+
+#skills ul {
+    margin-top: 15px;
 }
 
 .development-skills {
@@ -256,6 +265,7 @@ img.about-image {
     padding: 5px;
     font-size: 18px;
     text-align: justify;
+
 }
 
 #skills li:before {
@@ -280,6 +290,7 @@ img.about-image {
 .icon-shell {
     font-size: 36px;
     color: #b1e1e6;
+    margin-left: 10px;
 }
 
 /*****CONTACT*****/
@@ -299,6 +310,7 @@ img.about-image {
 #contact-container img {
     height: 45px;
     padding: 5px;
+    margin: 5px;
 }
 
 
@@ -323,28 +335,27 @@ footer {
 
     nav span {
         display: inline-block;
-        padding-top: 8px;
+        padding: 8px;
         font-size: 18px;
         width: auto;
     }
 
     nav span:hover {
         color: #358c96;
-        cursor: pointer;
+        cursor: context-menu;
     }
 
     .dropdown-nav {
         position: relative;
         width: auto;
         right: 0;
-        padding: 10 px;
         background: rgba(0, 0, 0, 0);
         cursor: pointer;
         outline: none;
     }
 
     .dropdown-nav li {
-        padding: 7px;
+        padding: 5px;
     }
 
     .dropdown-nav .dropdown {
@@ -417,7 +428,7 @@ footer {
     .project-info {
         width: 100%;
         display: block;
-        height: 100vhpx;
+        height: 100vh;
         padding: 20px;
         margin: 20px auto;
     }
