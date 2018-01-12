@@ -28,10 +28,6 @@ $(window).scroll(function () {
     }
 })
 
-console.log($(document).scrollTop());
-console.log(contact);
-console.log(skills);
-
 function scrollPageTo(myTarget, topPadding) {
     if (topPadding == undefined) {
         topPadding = 0;
