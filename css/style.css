@@ -232,7 +232,7 @@ img.about-image {
 
 #skills h2 {
     color: #358c96;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     vertical-align: top;
     font-family: 'Akkurat', Helvetica, sans-serif;
@@ -246,9 +246,9 @@ img.about-image {
 .development-skills {
     display: inline-block;
     height: 400px;
-    padding: 20px;
+    padding: 0;
     vertical-align: top;
-    margin: auto 20px;
+    margin: auto 10px;
 }
 
 .icon-html,
