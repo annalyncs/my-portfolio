@@ -246,9 +246,9 @@ img.about-image {
 .development-skills {
     display: inline-block;
     height: 400px;
-    padding: 0;
+    padding: 10px;
     vertical-align: top;
-    margin: auto 10px;
+    margin: auto 15px;
 }
 
 .icon-html,
