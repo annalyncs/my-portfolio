@@ -39,19 +39,19 @@ function scrollPageTo(myTarget, topPadding) {
 }
 
 $('.about-nav').click(function () {
-    scrollPageTo('#about', 100)
+    scrollPageTo('#about', 45)
 });
 
 $('.projects-nav').click(function () {
-    scrollPageTo('#projects', 100)
+    scrollPageTo('#projects', 45)
 });
 
 $('.skills-nav').click(function () {
-    scrollPageTo('#skills', 100)
+    scrollPageTo('#skills', 45)
 });
 
 $('.contact-nav').click(function () {
-    scrollPageTo('#contact', 100)
+    scrollPageTo('#contact', 45)
 });
 
 $('div#landing p').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {

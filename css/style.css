@@ -385,11 +385,17 @@ footer {
 
     .dropdown-nav .dropdown li:hover a {
         background: #b1e1e6;
+        padding: 3px
     }
 
     .dropdown-nav .dropdown {
         opacity: 1;
         pointer-events: auto;
+    }
+
+    nav a.selected {
+        border-bottom: 0px;
+        color: #358c96;
     }
 
     /*PROJECTS*/
