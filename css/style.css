@@ -71,9 +71,10 @@ main {
 h1 {
     font-size: 40px;
     color: black;
-    border-bottom: 20px solid #b1e1e6;
+    border-bottom: 10px solid #b1e1e6;
     line-height: 0.9px;
     font-family: 'Akkurat', Helvetica, sans-serif;
+    margin-left: 10px !important;
 }
 
 /*****HEADER*****/
