@@ -37,6 +37,7 @@ dir {
 body {
     margin: 0 auto;
     font-family: 'Akkurat-Light', Helvetica, sans-serif;
+    background: white !important;
 }
 
 a {
@@ -95,7 +96,7 @@ h1 {
     position: absolute;
     left: 30px;
     top: 0;
-    padding-top: 10px;
+    padding: 10px;
     margin: 0;
 }
 
