@@ -209,6 +209,7 @@ img.about-image {
     color: white;
     border-radius: 5px;
     font-size: 20px;
+    display: inline-block;
 }
 
 .project-info a:hover {
