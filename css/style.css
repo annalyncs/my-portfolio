@@ -98,6 +98,7 @@ h1 {
     top: 0;
     padding: 10px;
     margin: 0;
+    height: 100%;
 }
 
 nav li {
@@ -161,8 +162,8 @@ nav span {
 
 img.about-image {
     height: 250px;
-    float: right;
-    margin-left: 20px;
+    float: left;
+    margin-right: 20px;
     vertical-align: top;
 }
 
